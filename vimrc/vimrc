@@ -109,7 +109,7 @@ autocmd BufNewFile *.[ch],*.hpp,*.cpp,*.cc exec ":call Addreadme()"
 function Addreadme()
     call setline(1, " ///")
 	call append(1, " /// @file    " .expand("%:t"))
-	call append(2, " /// @author  lemon(haohb13@gmail.com)")
+	call append(2, " /// @author  meihao1203(meihao19931203@outlook.com)")
 	call append(3, " /// @date    ".strftime("%Y-%m-%d %H:%M:%S"))
 	call append(4, " ///")
 	call append(5, " ")
