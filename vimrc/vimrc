@@ -13,7 +13,7 @@ call vundle#rc()
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'ctrlpvim/ctrlp.vim'
-"Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
