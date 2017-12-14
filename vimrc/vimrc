@@ -114,8 +114,8 @@ function Addreadme()
 	call append(4, " ///")
 	call append(5, " ")
 	call append(6, "#include <iostream>")
-	call append(7, "using std::cout;")
-	call append(8, "using std::endl;")
+	call append(7, "using namespace std;")
+	"call append(8, "using std::endl;")
 endf
 
 
