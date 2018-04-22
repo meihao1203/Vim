@@ -1,28 +1,28 @@
 1.  在Ubuntu上安装git
 
-	$ sudo apt-get install git
+		$ sudo apt-get install git
 	
 2.  设置
 
-	$ git config --global user.name meihao1203
+		$ git config --global user.name meihao1203
 	
-	$ git config --global user.email meihao19931203@outlook.com
+		$ git config --global user.email meihao19931203@outlook.com
 	
 3.  安装Vundle(vim插件管理器)
 
-	$ git clone https://github.com/VundleVim/Vundle.vim.git   ~/.vim/bundle/Vundle.vim
+		$ git clone https://github.com/VundleVim/Vundle.vim.git   ~/.vim/bundle/Vundle.vim
 
-	$ cd ~/
+		$ cd ~/
 	
-	$ mv .vimrc vimrc.bak
+		$ mv .vimrc vimrc.bak
 	
-	$ cd ~/.vim/bundle/Vundle.vim
+		$ cd ~/.vim/bundle/Vundle.vim
 	
-	$ cp vimrc ~/.vimrc
+		$ cp vimrc ~/.vimrc
+		
+		$ vim
 	
-	$ vim
-	
-	:PluginInstall
+		:PluginInstall
 
 
 ----------
