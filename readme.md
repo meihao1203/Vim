@@ -1,14 +1,14 @@
-1.  	在Ubuntu上安装git
+1.  在Ubuntu上安装git
 
 		$ sudo apt-get install git
 	
-2.  	设置
+2.  设置
 
 		$ git config --global user.name meihao1203
 	
 		$ git config --global user.email meihao19931203@outlook.com
 	
-3.  	安装Vundle(vim插件管理器)
+3.  安装Vundle(vim插件管理器)
 
 		$ git clone https://github.com/VundleVim/Vundle.vim.git   ~/.vim/bundle/Vundle.vim
 
